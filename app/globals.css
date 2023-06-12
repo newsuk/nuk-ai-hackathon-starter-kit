@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-primary: 255, 255, 255;
+    --bg-secondary: 30, 76, 81;
+    --bg-tertiary: 225, 253, 201;
+
+    --text-primary: 0, 0, 0;
+    --text-secondary: 225, 253, 201;
+    --text-tertiary: 30, 76, 81;;
+  }
+
+  .dark {
+    --bg-primary: 30, 76, 81;
+    --text-primary: 0, 0, 0;
+  }
+}
